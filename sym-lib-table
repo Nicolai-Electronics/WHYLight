@@ -1,0 +1,7 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "AG5300")(type "KiCad")(uri "${KIPRJMOD}/library/AG5300.kicad_sym")(options "")(descr ""))
+  (lib (name "KPC357NT0ATLD")(type "KiCad")(uri "${KIPRJMOD}/library/KPC357NT0ATLD.kicad_sym")(options "")(descr ""))
+  (lib (name "RA-01SH")(type "KiCad")(uri "${KIPRJMOD}/library/RA-01SH.kicad_sym")(options "")(descr ""))
+  (lib (name "RJ45-TH_HR913180AE")(type "KiCad")(uri "${KIPRJMOD}/library/RJ45-TH_HR913180AE.kicad_sym")(options "")(descr ""))
+)
