@@ -619,173 +619,6 @@
 				)
 			)
 		)
-		(symbol "Connector:Conn_Coaxial"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0.254 3.048 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_Coaxial"
-				(at 2.921 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "BNC SMA SMB SMC LEMO coaxial connector CINCH RCA MCX MMCX U.FL UMRF"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO* *UMRF* *MCX* *U.FL*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_Coaxial_0_1"
-				(arc
-					(start -1.778 -0.508)
-					(mid 0.2311 -1.8066)
-					(end 1.778 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -0.508 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 0 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 0.508)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.778 0)
-					(mid 0.2099 1.8101)
-					(end -1.778 0.508)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Conn_Coaxial_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "In"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "Ext"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Connector:Screw_Terminal_01x02"
 			(pin_names
 				(offset 1.016) hide)
@@ -7646,6 +7479,10 @@
 		(uuid "9e50ae8a-09eb-46ed-80f0-8474ec3e5c38")
 	)
 	(no_connect
+		(at 151.13 165.1)
+		(uuid "a41b4015-dbe8-4b23-a126-f9ae32c1aec8")
+	)
+	(no_connect
 		(at 102.87 123.19)
 		(uuid "a4b34e6d-1bdd-4bac-993e-d62931a82710")
 	)
@@ -7792,16 +7629,6 @@
 			(type default)
 		)
 		(uuid "0e103952-1cb2-408d-91f4-6a216ca18bb2")
-	)
-	(wire
-		(pts
-			(xy 123.19 82.55) (xy 125.73 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0eff3279-6604-45b1-bec9-92977b3fd70a")
 	)
 	(wire
 		(pts
@@ -8695,7 +8522,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 82.55) (xy 118.11 82.55)
+			(xy 110.49 82.55) (xy 125.73 82.55)
 		)
 		(stroke
 			(width 0)
@@ -10035,16 +9862,6 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 165.1) (xy 162.56 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f681dd4e-ac30-45ac-a506-6e0ab1c891a4")
-	)
-	(wire
-		(pts
 			(xy 52.07 119.38) (xy 52.07 121.92)
 		)
 		(stroke
@@ -10345,6 +10162,16 @@
 			(justify left)
 		)
 		(uuid "5cde249e-51f0-431e-8ee8-f10d530e76ee")
+	)
+	(text "U.FL connector\non-board"
+		(exclude_from_sim no)
+		(at 160.02 165.354 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6ce911c7-78fb-4eb9-a708-9cade1c380bc")
 	)
 	(text "LoRa radio"
 		(exclude_from_sim no)
@@ -12276,6 +12103,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" " C408272"
+			(at 158.75 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "cb6611ed-4fcf-4819-b234-a666d336a174")
 		)
@@ -12656,7 +12492,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels"
 			(at 182.88 40.64 0)
 			(effects
 				(font
@@ -12675,6 +12511,15 @@
 			)
 		)
 		(property "Description" "Power source"
+			(at 182.88 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "-"
 			(at 182.88 40.64 0)
 			(effects
 				(font
@@ -12869,7 +12714,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 134.3152 48.26 0)
 			(effects
 				(font
@@ -12878,7 +12723,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlcpcb.com/partdetail/46786-CL21A226MAQNNNE/C45783"
 			(at 133.35 44.45 0)
 			(effects
 				(font
@@ -12888,6 +12733,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 133.35 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C45783"
 			(at 133.35 44.45 0)
 			(effects
 				(font
@@ -13047,9 +12901,9 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "2d2e0905-3822-44e3-98c6-fc6e0587f043")
 		(property "Reference" "J5"
 			(at 95.25 181.864 0)
@@ -13076,7 +12930,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "-"
 			(at 99.06 182.88 0)
 			(effects
 				(font
@@ -13086,6 +12940,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 99.06 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "-"
 			(at 99.06 182.88 0)
 			(effects
 				(font
@@ -13116,83 +12979,6 @@
 			(project ""
 				(path "/12ab2aee-f6e3-4178-94ff-8d6a84db0790"
 					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "mch2021-rescue:Polyfuse_Small-Device")
-		(at 120.65 82.55 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2fe1cecc-30b1-4a26-8260-568688b4a4ed")
-		(property "Reference" "F2"
-			(at 120.65 78.486 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10A"
-			(at 120.65 80.518 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Fuse:Fuse_0805_2012Metric"
-			(at 115.57 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 120.65 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 120.65 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 120.65 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e8149f42-c2df-4b2f-985e-b54df1aa9729")
-		)
-		(pin "2"
-			(uuid "314e8dbd-76bb-4bb8-aff1-d22399015b5d")
-		)
-		(instances
-			(project "whylight"
-				(path "/12ab2aee-f6e3-4178-94ff-8d6a84db0790"
-					(reference "F2")
 					(unit 1)
 				)
 			)
@@ -13307,6 +13093,15 @@
 			)
 		)
 		(property "Description" "2A, 1.1MHz Buck DC/DC Converter, fixed 3.3V output voltage, TSOT-23-6"
+			(at 104.14 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C780769"
 			(at 104.14 40.64 0)
 			(effects
 				(font
@@ -13626,6 +13421,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C160404"
+			(at 99.06 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "17da52de-2522-43b5-9547-731646226bb1")
 		)
@@ -13797,9 +13601,9 @@
 		(at 278.13 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "4b7c64d3-5741-4d71-9dbc-d538b3d71566")
 		(property "Reference" "J7"
 			(at 276.86 42.418 0)
@@ -13819,7 +13623,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Altech:Altech_AK100_1x04_P5.00mm"
+		(property "Footprint" "Connector_Phoenix_MC_HighVoltage:PhoenixContact_MC_1,5_4-GF-5.08_1x04_P5.08mm_Horizontal_ThreadedFlange_MountHole"
 			(at 278.13 49.53 0)
 			(effects
 				(font
@@ -13828,7 +13632,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "-"
 			(at 278.13 49.53 0)
 			(effects
 				(font
@@ -13838,6 +13642,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 278.13 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "-"
 			(at 278.13 49.53 0)
 			(effects
 				(font
@@ -14027,7 +13840,7 @@
 				)
 			)
 		)
-		(property "Value" "TVS"
+		(property "Value" "5.5v"
 			(at 57.15 22.352 0)
 			(effects
 				(font
@@ -14035,7 +13848,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 57.15 25.4 0)
 			(effects
 				(font
@@ -14044,7 +13857,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/product-detail/ESD-and-Surge-Protection-TVS-ESD_Nexperia-PESD5V0S1BA-115_C19224.html"
 			(at 57.15 25.4 0)
 			(effects
 				(font
@@ -14054,6 +13867,15 @@
 			)
 		)
 		(property "Description" "Bidirectional transient-voltage-suppression diode"
+			(at 57.15 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C19224"
 			(at 57.15 25.4 0)
 			(effects
 				(font
@@ -14114,7 +13936,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/88751/ss32.pdf"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/Twgmc-SS36/C727061"
 			(at 21.59 128.27 0)
 			(effects
 				(font
@@ -14124,6 +13946,15 @@
 			)
 		)
 		(property "Description" "60V 3A Schottky Diode, SMA"
+			(at 21.59 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C727061"
 			(at 21.59 128.27 0)
 			(effects
 				(font
@@ -14776,9 +14607,9 @@
 		(at 91.44 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "665e2478-08f7-478e-a170-14238944e863")
 		(property "Reference" "J3"
 			(at 84.582 85.09 0)
@@ -14806,7 +14637,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "-"
 			(at 92.71 86.106 0)
 			(effects
 				(font
@@ -14816,6 +14647,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 91.44 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "-"
 			(at 91.44 85.09 0)
 			(effects
 				(font
@@ -14912,9 +14752,9 @@
 		(at 140.97 175.26 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "67fe7bb2-9204-4da7-8a18-0e7c0e0a202f")
 		(property "Reference" "U4"
@@ -14926,7 +14766,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Ra-01"
+		(property "Value" "Ra-01SH"
 			(at 143.1641 160.02 0)
 			(effects
 				(font
@@ -14954,6 +14794,15 @@
 			)
 		)
 		(property "Description" "Ai-Thinker Ra-01 410-525 MHz LoRa Module, SPI interface, external antenna"
+			(at 140.97 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "-"
 			(at 140.97 175.26 0)
 			(effects
 				(font
@@ -15397,7 +15246,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 129.2352 48.26 0)
 			(effects
 				(font
@@ -15406,7 +15255,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlcpcb.com/partdetail/46786-CL21A226MAQNNNE/C45783"
 			(at 128.27 44.45 0)
 			(effects
 				(font
@@ -15416,6 +15265,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 128.27 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C45783"
 			(at 128.27 44.45 0)
 			(effects
 				(font
@@ -15434,71 +15292,6 @@
 			(project "whylight"
 				(path "/12ab2aee-f6e3-4178-94ff-8d6a84db0790"
 					(reference "C12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "mch2021-rescue:GND-power")
-		(at 167.64 170.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "73dafbe7-2759-4e27-bd94-0cd583352069")
-		(property "Reference" "#PWR048"
-			(at 167.64 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 167.767 174.5742 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 167.64 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 167.64 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 167.64 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "29eb9087-df53-4105-af8d-0e2b08de0295")
-		)
-		(instances
-			(project "whylight"
-				(path "/12ab2aee-f6e3-4178-94ff-8d6a84db0790"
-					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -16474,6 +16267,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2827693"
+			(at 48.26 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "ca074360-15dc-46fe-98c4-a58adc66c3ed")
 		)
@@ -16877,7 +16679,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels"
 			(at 80.01 33.02 0)
 			(effects
 				(font
@@ -16896,6 +16698,15 @@
 			)
 		)
 		(property "Description" "Power source"
+			(at 80.01 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "-"
 			(at 80.01 33.02 0)
 			(effects
 				(font
@@ -17033,6 +16844,15 @@
 			)
 		)
 		(property "Description" "High-Side or Low-Side Measurement, Bi-Directional Current and Power Monitor (0-36V) with I2C, SMBus-, and PMBus-Compatible Interface, VSSOP-10"
+			(at 217.17 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2653838"
 			(at 217.17 43.18 0)
 			(effects
 				(font
@@ -17810,7 +17630,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/88751/ss32.pdf"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/Twgmc-SS36/C727061"
 			(at 31.75 128.27 0)
 			(effects
 				(font
@@ -17820,6 +17640,15 @@
 			)
 		)
 		(property "Description" "60V 3A Schottky Diode, SMA"
+			(at 31.75 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C727061"
 			(at 31.75 128.27 0)
 			(effects
 				(font
@@ -17880,7 +17709,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/88751/ss32.pdf"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/Twgmc-SS36/C727061"
 			(at 31.75 115.57 0)
 			(effects
 				(font
@@ -17890,6 +17719,15 @@
 			)
 		)
 		(property "Description" "60V 3A Schottky Diode, SMA"
+			(at 31.75 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C727061"
 			(at 31.75 115.57 0)
 			(effects
 				(font
@@ -18028,7 +17866,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/88751/ss32.pdf"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/Twgmc-SS36/C727061"
 			(at 41.91 115.57 0)
 			(effects
 				(font
@@ -18038,6 +17876,15 @@
 			)
 		)
 		(property "Description" "60V 3A Schottky Diode, SMA"
+			(at 41.91 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C727061"
 			(at 41.91 115.57 0)
 			(effects
 				(font
@@ -18097,7 +17944,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/Stmicroelectronics-SMAJ58CATR/C132935"
 			(at 64.77 120.65 0)
 			(effects
 				(font
@@ -18107,6 +17954,15 @@
 			)
 		)
 		(property "Description" "400W unidirectional Transient Voltage Suppressor, 58.0Vr, SMA(DO-214AC)"
+			(at 64.77 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C132935"
 			(at 64.77 121.92 0)
 			(effects
 				(font
@@ -19005,7 +18861,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/88751/ss32.pdf"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/Twgmc-SS36/C727061"
 			(at 52.07 115.57 0)
 			(effects
 				(font
@@ -19015,6 +18871,15 @@
 			)
 		)
 		(property "Description" "60V 3A Schottky Diode, SMA"
+			(at 52.07 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C727061"
 			(at 52.07 115.57 0)
 			(effects
 				(font
@@ -19169,82 +19034,13 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_Coaxial")
-		(at 167.64 165.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ded020ed-8807-44c1-b5cf-2163dc961ac7")
-		(property "Reference" "J6"
-			(at 169.926 164.084 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "LoRa"
-			(at 169.926 166.624 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_901-143_Horizontal"
-			(at 167.64 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 167.64 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 167.64 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "453b8ec0-4c25-4174-8c75-bfbfb23edc74")
-		)
-		(pin "1"
-			(uuid "e770d546-e125-4efb-b880-b21622572d3b")
-		)
-		(instances
-			(project ""
-				(path "/12ab2aee-f6e3-4178-94ff-8d6a84db0790"
-					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
 		(at 87.63 97.79 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "df871f15-77c9-4bdb-95d8-4ce575ebac96")
 		(property "Reference" "J2"
 			(at 84.582 96.52 0)
@@ -19263,7 +19059,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Altech:Altech_AK100_1x02_P5.00mm"
+		(property "Footprint" "Connector_Phoenix_MC_HighVoltage:PhoenixContact_MC_1,5_2-G-5.08_1x02_P5.08mm_Horizontal"
 			(at 87.63 97.79 0)
 			(effects
 				(font
@@ -19272,7 +19068,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "-"
 			(at 87.63 97.79 0)
 			(effects
 				(font
@@ -19282,6 +19078,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 87.63 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "-"
 			(at 87.63 97.79 0)
 			(effects
 				(font
@@ -19342,7 +19147,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/88751/ss32.pdf"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/Twgmc-SS36/C727061"
 			(at 21.59 115.57 0)
 			(effects
 				(font
@@ -19352,6 +19157,15 @@
 			)
 		)
 		(property "Description" "60V 3A Schottky Diode, SMA"
+			(at 21.59 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C727061"
 			(at 21.59 115.57 0)
 			(effects
 				(font
@@ -19896,7 +19710,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 89.8652 48.26 0)
 			(effects
 				(font
@@ -19905,7 +19719,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlcpcb.com/partdetail/46786-CL21A226MAQNNNE/C45783"
 			(at 88.9 44.45 0)
 			(effects
 				(font
@@ -19915,6 +19729,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 88.9 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C45783"
 			(at 88.9 44.45 0)
 			(effects
 				(font
@@ -20231,7 +20054,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TVS"
+		(property "Value" "5.5v"
 			(at 128.27 90.1699 90)
 			(effects
 				(font
@@ -20240,7 +20063,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 125.73 88.9 0)
 			(effects
 				(font
@@ -20249,7 +20072,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/product-detail/ESD-and-Surge-Protection-TVS-ESD_Nexperia-PESD5V0S1BA-115_C19224.html"
 			(at 125.73 88.9 0)
 			(effects
 				(font
@@ -20259,6 +20082,15 @@
 			)
 		)
 		(property "Description" "Bidirectional transient-voltage-suppression diode"
+			(at 125.73 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C19224"
 			(at 125.73 88.9 0)
 			(effects
 				(font
@@ -20449,7 +20281,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/88751/ss32.pdf"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/Twgmc-SS36/C727061"
 			(at 41.91 128.27 0)
 			(effects
 				(font
@@ -20459,6 +20291,15 @@
 			)
 		)
 		(property "Description" "60V 3A Schottky Diode, SMA"
+			(at 41.91 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C727061"
 			(at 41.91 128.27 0)
 			(effects
 				(font
@@ -20488,9 +20329,9 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "f7dc2f52-7fc2-46c3-9f0c-daf524d38d27")
 		(property "Reference" "U1"
 			(at 89.916 137.414 0)
@@ -20518,7 +20359,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "-"
 			(at 102.87 110.49 0)
 			(effects
 				(font
@@ -20528,6 +20369,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 102.87 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "-"
 			(at 102.87 110.49 0)
 			(effects
 				(font
@@ -20762,7 +20612,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/88751/ss32.pdf"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/Twgmc-SS36/C727061"
 			(at 52.07 128.27 0)
 			(effects
 				(font
@@ -20772,6 +20622,15 @@
 			)
 		)
 		(property "Description" "60V 3A Schottky Diode, SMA"
+			(at 52.07 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C727061"
 			(at 52.07 128.27 0)
 			(effects
 				(font

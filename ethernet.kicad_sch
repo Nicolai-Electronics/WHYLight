@@ -4148,7 +4148,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlcpcb.com/partdetail/Sanyear-C0402X5R475M250NT/C2911388"
 			(at 129.54 119.38 0)
 			(effects
 				(font
@@ -4158,6 +4158,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 129.54 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2911388"
 			(at 129.54 119.38 0)
 			(effects
 				(font
@@ -4778,7 +4787,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "18p"
+		(property "Value" "22p"
 			(at 210.566 100.076 0)
 			(effects
 				(font
@@ -4805,7 +4814,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 210.82 97.79 0)
 			(effects
 				(font
@@ -4814,7 +4823,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C555395"
+		(property "LCSC" ""
 			(at 210.82 97.79 0)
 			(effects
 				(font
@@ -5016,7 +5025,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Crystal-Oscillators_HCI-1532H4-25000J18DTSTL_C5563795.html"
 			(at 205.74 90.17 0)
 			(effects
 				(font
@@ -5034,7 +5043,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C5563795"
 			(at 205.74 90.17 0)
 			(effects
 				(font
@@ -5180,7 +5189,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlcpcb.com/partdetail/Cctc-TCC0402X7R223K250AT/C466237"
 			(at 143.51 90.17 0)
 			(effects
 				(font
@@ -5190,6 +5199,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 143.51 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C466237"
 			(at 143.51 90.17 0)
 			(effects
 				(font
@@ -5393,6 +5411,15 @@
 			)
 		)
 		(property "Description" "10/100Mb SPI Ethernet controller with TCP/IP stack, LQFP-48"
+			(at 172.72 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C32843"
 			(at 172.72 86.36 0)
 			(effects
 				(font
@@ -7530,7 +7557,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "18p"
+		(property "Value" "22p"
 			(at 200.406 100.076 0)
 			(effects
 				(font
@@ -7557,7 +7584,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 200.66 97.79 0)
 			(effects
 				(font
@@ -7566,7 +7593,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C555395"
+		(property "LCSC" ""
 			(at 200.66 97.79 0)
 			(effects
 				(font
