@@ -434,6 +434,7 @@
     "rule_severities": {
       "bus_definition_conflict": "error",
       "bus_entry_needed": "error",
+      "bus_label_syntax": "error",
       "bus_to_bus_conflict": "error",
       "bus_to_net_conflict": "error",
       "conflicting_netclasses": "error",
@@ -602,51 +603,14 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": [
-      {
-        "netclass": "DSI differential pair",
-        "pattern": "*/DSI_*"
-      },
-      {
-        "netclass": "GND",
-        "pattern": "*GND*"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "*3V3*"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "VBUS"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "VSYS"
-      },
-      {
-        "netclass": "MIPI differential pair",
-        "pattern": ".*/CSI_(D[0-9]|CLK).*[NP]"
-      },
-      {
-        "netclass": "MIPI differential pair",
-        "pattern": ".*/DSI_(D|CLK).*[NP]"
-      },
-      {
-        "netclass": "USB differential pair",
-        "pattern": ".*USB[0-9]?_.*[NP]"
-      },
-      {
-        "netclass": "SOA",
-        "pattern": "SOA.*"
-      }
-    ]
+    "netclass_patterns": []
   },
   "pcbnew": {
     "last_paths": {
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "output/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -657,7 +621,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "",
+    "bom_export_filename": "output\\whylight.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -725,6 +689,12 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MOUSER",
+          "name": "MOUSER",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -761,8 +731,18 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "fix_passive_vals": false,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 0,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "output/",
+    "spice_adjust_passive_values": false,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
@@ -775,7 +755,7 @@
   "sheets": [
     [
       "12ab2aee-f6e3-4178-94ff-8d6a84db0790",
-      "Root"
+      "Hoofdblad"
     ],
     [
       "65e3049f-1cb2-47b8-b429-83c99da9f6f6",
