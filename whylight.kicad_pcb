@@ -564,7 +564,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/ccf0d2a0-11a0-44b1-8047-33c3de691639")
-		(sheetname "Hoofdblad")
+		(sheetname "Root")
 		(sheetfile "whylight.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -1016,7 +1016,7 @@
 		)
 		(property ki_fp_filters "*polyfuse* *PTC*")
 		(path "/77de5caf-ed75-44a2-a5a0-02ecf97170ed")
-		(sheetname "Hoofdblad")
+		(sheetname "Root")
 		(sheetfile "whylight.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -1242,7 +1242,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/5afde23b-13c6-4a15-82d5-0f7542881b0d")
-		(sheetname "Hoofdblad")
+		(sheetname "Root")
 		(sheetfile "whylight.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -1694,7 +1694,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/b0a74b58-00f0-49c3-86ca-1e9851234f75")
-		(sheetname "Hoofdblad")
+		(sheetname "Root")
 		(sheetfile "whylight.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -1920,7 +1920,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/17aa4fb3-f565-40d1-a828-a4671be10639")
-		(sheetname "Hoofdblad")
+		(sheetname "Root")
 		(sheetfile "whylight.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -2146,7 +2146,7 @@
 		)
 		(property ki_fp_filters "TerminalBlock*:*")
 		(path "/4b7c64d3-5741-4d71-9dbc-d538b3d71566")
-		(sheetname "Hoofdblad")
+		(sheetname "Root")
 		(sheetfile "whylight.kicad_sch")
 		(attr through_hole exclude_from_bom dnp)
 		(fp_circle
@@ -2619,7 +2619,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/e626c454-5273-434c-af63-893cdbf934ab")
-		(sheetname "Hoofdblad")
+		(sheetname "Root")
 		(sheetfile "whylight.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -2845,7 +2845,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/9e45cc27-6d44-4ab2-a91c-7b5d3789fdb3")
-		(sheetname "Hoofdblad")
+		(sheetname "Root")
 		(sheetfile "whylight.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -3084,7 +3084,7 @@
 		)
 		(property ki_fp_filters "BarrelJack*")
 		(path "/665e2478-08f7-478e-a170-14238944e863")
-		(sheetname "Hoofdblad")
+		(sheetname "Root")
 		(sheetfile "whylight.kicad_sch")
 		(attr through_hole exclude_from_bom dnp)
 		(fp_line
@@ -3443,7 +3443,7 @@
 		)
 		(property ki_fp_filters "USB*C*Receptacle*")
 		(path "/ce97a630-888a-4923-b85d-8015e135e24b")
-		(sheetname "Hoofdblad")
+		(sheetname "Root")
 		(sheetfile "whylight.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -3894,7 +3894,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/9371db46-4122-4227-a16e-4510278104a3")
-		(sheetname "Hoofdblad")
+		(sheetname "Root")
 		(sheetfile "whylight.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -4120,7 +4120,7 @@
 		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/f478c543-e00e-42b0-b6b9-c287dee04603")
-		(sheetname "Hoofdblad")
+		(sheetname "Root")
 		(sheetfile "whylight.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -4644,7 +4644,7 @@
 		)
 		(property ki_fp_filters "SOT?89*")
 		(path "/176c3145-e084-412f-a304-7b4faba04db6")
-		(sheetname "Hoofdblad")
+		(sheetname "Root")
 		(sheetfile "whylight.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -5283,7 +5283,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R31"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "9ba249e8-5e6a-449a-a1fc-62f73355ee4e")
 			(effects
@@ -5294,7 +5294,7 @@
 			)
 		)
 		(property "Value" "10"
-			(at 0 1.17 360)
+			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "199c6ec2-5958-438c-9577-d79ef0954b97")
 			(effects
@@ -5358,7 +5358,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/584e54fd-dede-4465-b738-2c617d7e3524")
-		(sheetname "Hoofdblad")
+		(sheetname "Root")
 		(sheetfile "whylight.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -5462,7 +5462,7 @@
 			(uuid "78e23bbf-bcf8-4648-8c02-3c38964b594f")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "a0eb1df5-d640-4c93-9263-639ec16d0653")
 			(effects
@@ -5584,7 +5584,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/6e583582-cc2e-42a4-887d-8fe5d024a23d")
-		(sheetname "Hoofdblad")
+		(sheetname "Root")
 		(sheetfile "whylight.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -5810,7 +5810,7 @@
 		)
 		(property ki_fp_filters "Jumper* TestPoint*3Pads* TestPoint*Bridge*")
 		(path "/20eb3df5-4e4a-49c8-b623-a16dfc5c560d")
-		(sheetname "Hoofdblad")
+		(sheetname "Root")
 		(sheetfile "whylight.kicad_sch")
 		(zone_connect 1)
 		(attr exclude_from_pos_files exclude_from_bom)
@@ -6049,7 +6049,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R32"
-			(at 0 0.01 360)
+			(at 0 0.01 0)
 			(layer "F.SilkS")
 			(uuid "b4392d21-fe4f-497f-8529-939627d15406")
 			(effects
@@ -6060,7 +6060,7 @@
 			)
 		)
 		(property "Value" "10"
-			(at 0 1.17 360)
+			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "8cb4bcbf-39ef-4fd2-adbc-ff192fbbb231")
 			(effects
@@ -6124,7 +6124,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/f22e68e0-aa9c-4fcc-b038-786b22f2ee9b")
-		(sheetname "Hoofdblad")
+		(sheetname "Root")
 		(sheetfile "whylight.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -6228,7 +6228,7 @@
 			(uuid "b8d156be-9cc3-4e95-ac9a-846342e97d40")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "32c560b8-f35c-48a2-bb82-585da4a4aceb")
 			(effects
@@ -6576,7 +6576,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/cc61a102-b5cf-4c03-8643-8a5ada8d3f91")
-		(sheetname "Hoofdblad")
+		(sheetname "Root")
 		(sheetfile "whylight.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -6802,7 +6802,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/3d9cb8a9-cecb-4588-989a-415d7e37aa3e")
-		(sheetname "Hoofdblad")
+		(sheetname "Root")
 		(sheetfile "whylight.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -7028,7 +7028,7 @@
 		)
 		(property ki_fp_filters "CP_*")
 		(path "/4d62cc9e-ada3-48f4-be9b-2e5a2063caa6")
-		(sheetname "Hoofdblad")
+		(sheetname "Root")
 		(sheetfile "whylight.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -7485,7 +7485,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/adc8f728-8770-4b05-990a-505244c8eb48")
-		(sheetname "Hoofdblad")
+		(sheetname "Root")
 		(sheetfile "whylight.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -7711,7 +7711,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/b8cb12a5-6e60-42bd-881f-1efac2fd486c")
-		(sheetname "Hoofdblad")
+		(sheetname "Root")
 		(sheetfile "whylight.kicad_sch")
 		(attr smd exclude_from_bom dnp)
 		(fp_line
@@ -8389,7 +8389,7 @@
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/2d2e0905-3822-44e3-98c6-fc6e0587f043")
-		(sheetname "Hoofdblad")
+		(sheetname "Root")
 		(sheetfile "whylight.kicad_sch")
 		(attr through_hole exclude_from_bom dnp)
 		(fp_line
@@ -8713,7 +8713,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/e4e12db6-09f8-482b-afb1-e74eeada384f")
-		(sheetname "Hoofdblad")
+		(sheetname "Root")
 		(sheetfile "whylight.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -8939,7 +8939,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/3f4cd90f-f1f0-4cdf-9b7a-1a0f0c88a67b")
-		(sheetname "Hoofdblad")
+		(sheetname "Root")
 		(sheetfile "whylight.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -9165,7 +9165,7 @@
 		)
 		(property ki_fp_filters "CP_*")
 		(path "/ec19e48d-3f71-4c94-b72e-01677b2f3192")
-		(sheetname "Hoofdblad")
+		(sheetname "Root")
 		(sheetfile "whylight.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -10074,7 +10074,7 @@
 		)
 		(property ki_fp_filters "TSOT?23*")
 		(path "/387d60fc-492a-44d6-9493-96b1d8d9c73d")
-		(sheetname "Hoofdblad")
+		(sheetname "Root")
 		(sheetfile "whylight.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -10384,7 +10384,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/47711b4d-ae6b-4c94-913f-0aa6e7dde010")
-		(sheetname "Hoofdblad")
+		(sheetname "Root")
 		(sheetfile "whylight.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -10610,7 +10610,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/c9cb9c67-e04b-491c-b38e-40685f40c59b")
-		(sheetname "Hoofdblad")
+		(sheetname "Root")
 		(sheetfile "whylight.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -10836,7 +10836,7 @@
 		)
 		(property ki_fp_filters "SOT?23* Texas?R-PDSO-G5?DCK* Texas?R-PDSO-N5?DRL* Texas?X2SON*0.8x0.8mm*P0.48mm*")
 		(path "/d1f2207c-89b1-47f7-9c14-cdf4a82c642a")
-		(sheetname "Hoofdblad")
+		(sheetname "Root")
 		(sheetfile "whylight.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -11113,7 +11113,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/60035e9d-348f-48d4-81fc-f90c455fa6a7")
-		(sheetname "Hoofdblad")
+		(sheetname "Root")
 		(sheetfile "whylight.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -11339,7 +11339,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/e5608a8d-32ef-4ec1-ab1a-70f69c43dec7")
-		(sheetname "Hoofdblad")
+		(sheetname "Root")
 		(sheetfile "whylight.kicad_sch")
 		(attr smd exclude_from_bom dnp)
 		(fp_line
@@ -11560,7 +11560,7 @@
 			)
 		)
 		(path "/f7dc2f52-7fc2-46c3-9f0c-daf524d38d27")
-		(sheetname "Hoofdblad")
+		(sheetname "Root")
 		(sheetfile "whylight.kicad_sch")
 		(attr through_hole exclude_from_bom dnp)
 		(fp_line
@@ -11984,7 +11984,7 @@
 		(descr "VSSOP, 10 Pin (http://www.ti.com/lit/ds/symlink/ads1115.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "VSSOP SO")
 		(property "Reference" "U10"
-			(at 0 -2.45 360)
+			(at 0 -2.45 0)
 			(layer "F.SilkS")
 			(uuid "fba40ab1-2911-4abb-b5c3-6fa641b73357")
 			(effects
@@ -11995,7 +11995,7 @@
 			)
 		)
 		(property "Value" "INA233"
-			(at 0 2.45 360)
+			(at 0 2.45 0)
 			(layer "F.Fab")
 			(uuid "f3127266-b4ad-4d2e-be12-de6d4056a663")
 			(effects
@@ -12059,7 +12059,7 @@
 		)
 		(property ki_fp_filters "VSSOP*3x3mm*P0.5mm*")
 		(path "/a56ff5b5-5eb1-4f99-951e-168187efa40c")
-		(sheetname "Hoofdblad")
+		(sheetname "Root")
 		(sheetfile "whylight.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -12205,7 +12205,7 @@
 			(uuid "3a1a9a11-86e2-4a02-ba9c-2bda276532da")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "ccefb26e-3384-4058-b1dc-94deda8bcb37")
 			(effects
@@ -12409,7 +12409,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/4106e8a2-c007-4b90-948b-a000a8d39f91")
-		(sheetname "Hoofdblad")
+		(sheetname "Root")
 		(sheetfile "whylight.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -12632,7 +12632,7 @@
 		)
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/7024f685-d3dc-434a-89ea-9609cc5c62c6")
-		(sheetname "Hoofdblad")
+		(sheetname "Root")
 		(sheetfile "whylight.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -12898,7 +12898,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/77da9652-41cd-4939-bdcc-14291f3963ff")
-		(sheetname "Hoofdblad")
+		(sheetname "Root")
 		(sheetfile "whylight.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -13124,7 +13124,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/782ffa3b-64d6-4870-af09-231e48af927b")
-		(sheetname "Hoofdblad")
+		(sheetname "Root")
 		(sheetfile "whylight.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -13350,7 +13350,7 @@
 		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/53dd94ad-26e3-4c7a-b0d0-29291ffc2367")
-		(sheetname "Hoofdblad")
+		(sheetname "Root")
 		(sheetfile "whylight.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -13874,7 +13874,7 @@
 		)
 		(property ki_fp_filters "TerminalBlock*:*")
 		(path "/df871f15-77c9-4bdb-95d8-4ce575ebac96")
-		(sheetname "Hoofdblad")
+		(sheetname "Root")
 		(sheetfile "whylight.kicad_sch")
 		(attr through_hole exclude_from_bom dnp)
 		(fp_line
@@ -14205,7 +14205,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/26ea6aa5-db08-44bf-9ede-7c3955556d72")
-		(sheetname "Hoofdblad")
+		(sheetname "Root")
 		(sheetfile "whylight.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -14431,7 +14431,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/7339bcbb-b5d6-4d8f-8ffc-12203898b5a1")
-		(sheetname "Hoofdblad")
+		(sheetname "Root")
 		(sheetfile "whylight.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -14657,7 +14657,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/01a5667d-e79f-456d-b6b7-96aa208ba0f2")
-		(sheetname "Hoofdblad")
+		(sheetname "Root")
 		(sheetfile "whylight.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -14883,7 +14883,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/eb44d199-61a0-47b9-9f32-135f82f51ad1")
-		(sheetname "Hoofdblad")
+		(sheetname "Root")
 		(sheetfile "whylight.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -15109,7 +15109,7 @@
 		)
 		(property ki_fp_filters "Connector*:*_1x??-1MP*")
 		(path "/43c1f35a-36d9-4562-a8fe-e9fb99d30a3c")
-		(sheetname "Hoofdblad")
+		(sheetname "Root")
 		(sheetfile "whylight.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -15449,7 +15449,7 @@
 		)
 		(property ki_fp_filters "SOT?666*")
 		(path "/920f1d00-f755-4545-83dd-9fb1dedecb26")
-		(sheetname "Hoofdblad")
+		(sheetname "Root")
 		(sheetfile "whylight.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -15749,7 +15749,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/be1b3310-620d-4e69-a386-401f8ef28a03")
-		(sheetname "Hoofdblad")
+		(sheetname "Root")
 		(sheetfile "whylight.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -15975,7 +15975,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/55d36cd1-dbfb-42d0-803e-4b76600c764d")
-		(sheetname "Hoofdblad")
+		(sheetname "Root")
 		(sheetfile "whylight.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -16201,7 +16201,7 @@
 		)
 		(property ki_fp_filters "CP_*")
 		(path "/640a2005-90ab-4fe0-9b06-37e86d7159d5")
-		(sheetname "Hoofdblad")
+		(sheetname "Root")
 		(sheetfile "whylight.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -16884,7 +16884,7 @@
 		)
 		(property ki_fp_filters "Jumper* TestPoint*3Pads* TestPoint*Bridge*")
 		(path "/9eba517f-9d88-40a5-8318-0c87d68007e9")
-		(sheetname "Hoofdblad")
+		(sheetname "Root")
 		(sheetfile "whylight.kicad_sch")
 		(zone_connect 1)
 		(attr exclude_from_pos_files exclude_from_bom)
@@ -17198,7 +17198,7 @@
 		)
 		(property ki_fp_filters "SOT?23* Texas?R-PDSO-G5?DCK* Texas?R-PDSO-N5?DRL* Texas?X2SON*0.8x0.8mm*P0.48mm*")
 		(path "/fa63b4b1-a95f-4e8e-ba4c-109f52c2eea7")
-		(sheetname "Hoofdblad")
+		(sheetname "Root")
 		(sheetfile "whylight.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -17714,7 +17714,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/a849ab7e-0035-4462-a0f3-0e8c5d8abeee")
-		(sheetname "Hoofdblad")
+		(sheetname "Root")
 		(sheetfile "whylight.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -17947,7 +17947,7 @@
 		)
 		(property ki_fp_filters "D*SMA*")
 		(path "/b9900f67-8b7b-4ee5-96ea-82f29386c75a")
-		(sheetname "Hoofdblad")
+		(sheetname "Root")
 		(sheetfile "whylight.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -18247,7 +18247,7 @@
 			)
 		)
 		(path "/740e85de-c174-43ea-ba9a-c5b29825c443")
-		(sheetname "Hoofdblad")
+		(sheetname "Root")
 		(sheetfile "whylight.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -18491,7 +18491,7 @@
 			(at -8.75 4.45 180)
 			(size 1.5 0.9)
 			(layers "B.Cu" "B.Paste" "B.Mask")
-			(net 58 "ETH_INT")
+			(net 71 "LORA_DIO1")
 			(pinfunction "MTMS/GPIO4/ADC1_CH4")
 			(pintype "bidirectional")
 			(uuid "97140b93-d77f-49d0-9824-bc13908119e1")
@@ -18500,7 +18500,7 @@
 			(at -8.75 3.18 180)
 			(size 1.5 0.9)
 			(layers "B.Cu" "B.Paste" "B.Mask")
-			(net 74 "SPI_MOSI")
+			(net 75 "LORA_BUSY")
 			(pinfunction "MTDI/GPIO5/ADC1_CH5")
 			(pintype "bidirectional")
 			(uuid "f967b92f-c54c-4a63-9f00-f792e2e4aec6")
@@ -18527,7 +18527,7 @@
 			(at -8.75 -0.63 180)
 			(size 1.5 0.9)
 			(layers "B.Cu" "B.Paste" "B.Mask")
-			(net 76 "SPI_MISO")
+			(net 72 "SPI_SCK")
 			(pinfunction "GPIO0/ADC1_CH0/XTAL_32K_P")
 			(pintype "bidirectional")
 			(uuid "9cdf1800-6caf-4532-a706-d262c7642b70")
@@ -18536,7 +18536,7 @@
 			(at -8.75 -1.9 180)
 			(size 1.5 0.9)
 			(layers "B.Cu" "B.Paste" "B.Mask")
-			(net 72 "SPI_SCK")
+			(net 57 "LORA_CS")
 			(pinfunction "GPIO1/ADC1_CH1/XTAL_32K_N")
 			(pintype "bidirectional")
 			(uuid "3c2a0a7e-4e47-4dca-b15a-d24ed947ef34")
@@ -18626,7 +18626,7 @@
 			(at 8.75 -3.17)
 			(size 1.5 0.9)
 			(layers "B.Cu" "B.Paste" "B.Mask")
-			(net 75 "LORA_BUSY")
+			(net 58 "ETH_INT")
 			(pinfunction "GPIO21")
 			(pintype "bidirectional")
 			(uuid "e5c5c131-ea78-48d8-8072-282643037c0a")
@@ -18635,7 +18635,7 @@
 			(at 8.75 -1.9)
 			(size 1.5 0.9)
 			(layers "B.Cu" "B.Paste" "B.Mask")
-			(net 71 "LORA_DIO1")
+			(net 44 "ETH_LED2B")
 			(pinfunction "GPIO22")
 			(pintype "bidirectional")
 			(uuid "d9adb3b8-1c83-41ab-a1ad-923945183539")
@@ -18662,7 +18662,7 @@
 			(at 8.75 1.91)
 			(size 1.5 0.9)
 			(layers "B.Cu" "B.Paste" "B.Mask")
-			(net 57 "LORA_CS")
+			(net 93 "ALERT")
 			(pinfunction "GPIO15")
 			(pintype "bidirectional")
 			(uuid "3a5114f0-c61c-420f-8bf4-ee1814a49fe6")
@@ -18689,7 +18689,7 @@
 			(at 8.75 5.72)
 			(size 1.5 0.9)
 			(layers "B.Cu" "B.Paste" "B.Mask")
-			(net 93 "ALERT")
+			(net 76 "SPI_MISO")
 			(pinfunction "GPIO3/ADC1_CH3")
 			(pintype "bidirectional")
 			(uuid "3eeec333-0453-4dec-90c2-eb3098ba209b")
@@ -18698,7 +18698,7 @@
 			(at 8.75 6.99)
 			(size 1.5 0.9)
 			(layers "B.Cu" "B.Paste" "B.Mask")
-			(net 44 "ETH_LED2B")
+			(net 74 "SPI_MOSI")
 			(pinfunction "GPIO2/ADC1_CH2")
 			(pintype "bidirectional")
 			(uuid "bd76f543-9399-4872-84d2-b1cc26e418b4")
@@ -19400,7 +19400,7 @@
 		)
 		(property ki_fp_filters "D*SMA*")
 		(path "/fb7b516a-59df-41f6-8f24-09d3409264bf")
-		(sheetname "Hoofdblad")
+		(sheetname "Root")
 		(sheetfile "whylight.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -20915,7 +20915,7 @@
 		)
 		(property ki_fp_filters "D*SMA*")
 		(path "/c1db38be-90c5-45f9-b379-f5a73f873345")
-		(sheetname "Hoofdblad")
+		(sheetname "Root")
 		(sheetfile "whylight.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -21447,7 +21447,7 @@
 			)
 		)
 		(path "/71c70c2c-3ee1-4f4a-823f-f9e2309312cb")
-		(sheetname "Hoofdblad")
+		(sheetname "Root")
 		(sheetfile "whylight.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -21936,7 +21936,7 @@
 		)
 		(property ki_fp_filters "Ai?Thinker?Ra?01*")
 		(path "/67fe7bb2-9204-4da7-8a18-0e7c0e0a202f")
-		(sheetname "Hoofdblad")
+		(sheetname "Root")
 		(sheetfile "whylight.kicad_sch")
 		(attr smd exclude_from_bom dnp)
 		(fp_line
@@ -22591,7 +22591,7 @@
 		)
 		(property ki_fp_filters "D*SMA*")
 		(path "/f79fe129-f37c-4c7f-b7b5-445d201fdc9f")
-		(sheetname "Hoofdblad")
+		(sheetname "Root")
 		(sheetfile "whylight.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -22897,7 +22897,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/e8d0c547-f9b8-488a-8c5e-fce547d0a96e")
-		(sheetname "Hoofdblad")
+		(sheetname "Root")
 		(sheetfile "whylight.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -23363,7 +23363,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/b46db5e0-786d-4729-b2a0-696cac24a84a")
-		(sheetname "Hoofdblad")
+		(sheetname "Root")
 		(sheetfile "whylight.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -24062,7 +24062,7 @@
 		)
 		(property ki_fp_filters "D*SMA*")
 		(path "/bb56a6a5-0dff-4b7f-9dbd-0b4da9c4dda4")
-		(sheetname "Hoofdblad")
+		(sheetname "Root")
 		(sheetfile "whylight.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -24367,7 +24367,7 @@
 		)
 		(property ki_fp_filters "D*SMA*")
 		(path "/54db5c29-8e3f-4edc-a9a4-6f00b99da690")
-		(sheetname "Hoofdblad")
+		(sheetname "Root")
 		(sheetfile "whylight.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -24934,7 +24934,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/0d224b2b-2c62-4db2-a31a-0201613a67cc")
-		(sheetname "Hoofdblad")
+		(sheetname "Root")
 		(sheetfile "whylight.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -25401,7 +25401,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/25e14882-0e04-4dbe-be43-afe230748145")
-		(sheetname "Hoofdblad")
+		(sheetname "Root")
 		(sheetfile "whylight.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -25634,7 +25634,7 @@
 		)
 		(property ki_fp_filters "D*SMA*")
 		(path "/bf5eb696-124f-42e0-9a54-ef464e99ab6f")
-		(sheetname "Hoofdblad")
+		(sheetname "Root")
 		(sheetfile "whylight.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -25940,7 +25940,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/c1ee6b3d-3671-4f7a-9d0e-369b3809e543")
-		(sheetname "Hoofdblad")
+		(sheetname "Root")
 		(sheetfile "whylight.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -26872,7 +26872,7 @@
 		)
 		(property ki_fp_filters "D*SMA*")
 		(path "/dfb7e084-3ada-4da8-b9e6-1c60bca693fe")
-		(sheetname "Hoofdblad")
+		(sheetname "Root")
 		(sheetfile "whylight.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -27177,7 +27177,7 @@
 		)
 		(property ki_fp_filters "D*SMA*")
 		(path "/daa6e9b3-a3c9-466c-8d5e-cfefd12c8fea")
-		(sheetname "Hoofdblad")
+		(sheetname "Root")
 		(sheetfile "whylight.kicad_sch")
 		(attr smd)
 		(fp_line
