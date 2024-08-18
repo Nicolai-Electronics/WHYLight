@@ -58,7 +58,13 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "courtyards_overlap|-249999|-19849999|445b9630-ee2c-494e-b405-3bea22299c4f|d39cac2d-be15-4dfb-856e-8cc1969f3929",
+        "silk_overlap|150000|-19450000|c0e9a454-ddf7-47e9-acf5-db6b360abaeb|05d4850c-a267-4a93-bfbc-556f99edaee6",
+        "silk_overlap|150000|-19450000|e7c59061-341d-4e2b-a6e5-ca5eeb6e91e4|05d4850c-a267-4a93-bfbc-556f99edaee6",
+        "silk_overlap|4842500|-10250000|e7006028-5186-4a4e-aa47-24be7eb46128|0d5cba25-c5c3-40a6-96bd-ceffd3f8ea25",
+        "silk_overlap|4842500|-19450000|e7c59061-341d-4e2b-a6e5-ca5eeb6e91e4|174490d5-df5e-428e-a463-e13398a89469"
+      ],
       "meta": {
         "version": 2
       },
@@ -498,23 +504,6 @@
       {
         "bus_width": 12,
         "clearance": 0.127,
-        "diff_pair_gap": 0.12,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.09,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "DSI differential pair",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgb(132, 0, 132)",
-        "track_width": 0.09,
-        "via_diameter": 0.5,
-        "via_drill": 0.3,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.127,
         "diff_pair_gap": 0.127,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.09,
@@ -531,23 +520,6 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.17,
-        "diff_pair_gap": 0.12,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.09,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "MIPI differential pair",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgb(132, 0, 132)",
-        "track_width": 0.09,
-        "via_diameter": 0.35,
-        "via_drill": 0.2,
-        "wire_width": 5
-      },
-      {
-        "bus_width": 12,
         "clearance": 0.127,
         "diff_pair_gap": 0.127,
         "diff_pair_via_gap": 0.25,
@@ -561,23 +533,6 @@
         "track_width": 0.25,
         "via_diameter": 0.8,
         "via_drill": 0.4,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.127,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.09,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "SOA",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.127,
-        "via_diameter": 0.45,
-        "via_drill": 0.3,
         "wire_width": 6
       },
       {
@@ -603,7 +558,32 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Default",
+        "pattern": "*/DSI_*"
+      },
+      {
+        "netclass": "GND",
+        "pattern": "*GND*"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "*3V3*"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "VBUS"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "VSYS"
+      },
+      {
+        "netclass": "USB differential pair",
+        "pattern": ".*USB[0-9]?_.*[NP]"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -697,10 +677,10 @@
           "show": false
         }
       ],
-      "filter_string": "",
+      "filter_string": "H4",
       "group_symbols": true,
       "name": "",
-      "sort_asc": true,
+      "sort_asc": false,
       "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
