@@ -5,4 +5,5 @@
   (lib (name "RA-01SH")(type "KiCad")(uri "${KIPRJMOD}/library/RA-01SH.kicad_sym")(options "")(descr ""))
   (lib (name "RJ45-TH_HR913180AE")(type "KiCad")(uri "${KIPRJMOD}/library/RJ45-TH_HR913180AE.kicad_sym")(options "")(descr ""))
   (lib (name "buffer")(type "KiCad")(uri "${KIPRJMOD}/library/buffer.kicad_sym")(options "")(descr ""))
+  (lib (name "0826-1X1T-GJ-F")(type "KiCad")(uri "${KIPRJMOD}/library/0826-1X1T-GJ-F.kicad_sym")(options "")(descr ""))
 )
